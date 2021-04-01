@@ -11,6 +11,8 @@ section {
     padding: 1rem;
 }
 
+/* *********** typography ************* */
+
 h2,
 h3 {
     color: #dc413e;
@@ -33,6 +35,12 @@ header {
 
 svg {
     fill: #fff;
+}
+
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .nav-links {
